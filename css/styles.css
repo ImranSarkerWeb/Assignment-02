@@ -2,4 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgba(255, 144, 14, 0.1);
+}
+   
+
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+nav>ul{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+.banner{
+    text-align: center;
+}
+
+
+.banner img{
+    width: 100%;
 }
