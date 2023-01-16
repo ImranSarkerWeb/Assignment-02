@@ -33,8 +33,32 @@
         padding-left: 1px;
         grid-template-columns: repeat(1, 1fr);
     }
+    .btn-features{
+        text-align: center;
+    }
    
+
+    /* Features details section styles */
+
+    .features-details {
+        flex-direction: column-reverse;
     
-      
+    }
+    .fd-text {
+        width: 100%;
+    }
+    .fd-text>p{
+        margin-bottom:20px;
+    }
+
+    .fd-images>img {
+        margin-left: 0px;
+        z-index: -1;
+    }
+
+    .overlap-btn{
+        text-align: center;
+    }
+
 
 }
