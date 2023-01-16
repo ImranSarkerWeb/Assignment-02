@@ -93,4 +93,23 @@
     .sponsors-logo>img{
         padding: 20px;
     }
+/* footer section */
+.contact {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 0;
+    gap:0;
+}
+.part-of-contact{
+    margin-top: 20px;
+}
+[type="text"],
+[type="email"], textarea {
+   width: 70%;
+}
+.message{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
 }
