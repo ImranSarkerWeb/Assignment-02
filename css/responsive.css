@@ -18,6 +18,9 @@
     .banner-text {
         width: 100%;
     }
+    .banner-title{
+        font-size: 35px;
+    }
 
 
     /* features responsive */
