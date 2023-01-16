@@ -28,6 +28,10 @@ body {
 
 }
 
+section {
+    width: 80%;
+}
+
 
 /* header section start here */
 
@@ -88,16 +92,17 @@ li {
 /* features section styles */
 
 .features {
-    width: 80%;
-    margin: 85px auto 0 auto;
+    margin: 85px auto 130px auto;
     display: flex;
     gap: 70px;
+  
     align-items: center;
 
 }
 
 
 .features-images {
+   padding-left: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
@@ -130,9 +135,18 @@ li {
 .features-text>p {
     font-weight: 400;
     font-size: 16px;
-
-
     color: #727272;
+}
+
+
+
+
+/* details features section styles */
+.features-details {
+    margin: 0 auto;
+    display: flex;
+   
+    
 
 }
 
@@ -172,12 +186,11 @@ li {
         
     }
     .features-images {
- 
+        padding-left: 1px;
         grid-template-columns: repeat(1, 1fr);
        
     }
-
-  
+        
       
 
 }
