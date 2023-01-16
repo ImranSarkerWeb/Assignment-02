@@ -36,11 +36,13 @@ section {
 
 /* header section start here */
 
-header, footer {
+header,
+footer {
     background: rgba(255, 144, 14, 0.1);
 }
 
-.header, .contact{
+.header,
+.contact {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -232,51 +234,63 @@ li {
     border-radius: 8px;
 }
 
-.fact-card-item:hover{
+.fact-card-item:hover {
     background-color: #ff900e;
     color: #FFFFFF;
     font-weight: 700px;
 }
 
-.fact-card-item>h3{
+.fact-card-item>h3 {
     margin: 10px 0;
 }
 
 /* Sponsors section added */
-.sponsors{
+.sponsors {
     margin-bottom: 130px;
 }
-.sponsors-text{
+
+.sponsors-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sponsors-text {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.sponsors-logo{
+.sponsors-logo {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
+    align-items: center;
 }
 
-.sponsors-logo>img{
-    width: 100%;
+.sponsors-logo>img {
+    width: 200px;
     filter: grayscale(1);
 }
+
+.sponsors-logo>img:hover{
+    filter: grayscale(0);
+}
+
 
 /* footer section */
 
 .contact {
     display: flex;
     gap: 100px;
-   
+
 }
 
 .part-of-contact {
-    margin-top: 130px;
+    margin-top: 30px;
 }
 
 .part-of-contact h3 {
     font-weight: 700;
     font-size: 35px;
-    line-height: 48px;
     color: #181818;
     margin-bottom: 20px;
 }
@@ -287,10 +301,12 @@ li {
     color: #474747;
     margin-bottom: 30px;
 }
-.part-of-contact > a> img{
+
+.part-of-contact>a>img {
     margin-top: -30px;
     margin-right: 20px;
 }
+
 [type="text"],
 [type="email"] {
     display: block;
@@ -329,8 +345,11 @@ textarea {
     margin-top: 24px;
     margin-bottom: 30px;
 }
-.copyright{
+
+.copyright {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 25px;
+    ;
 }
