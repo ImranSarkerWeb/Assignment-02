@@ -95,14 +95,14 @@ li {
     margin: 85px auto 130px auto;
     display: flex;
     gap: 70px;
-  
+
     align-items: center;
 
 }
 
 
 .features-images {
-   padding-left: 60px;
+    padding-left: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
@@ -128,7 +128,8 @@ li {
     color: #FF900E;
     font-weight: 700;
 }
-.black{
+
+.black {
     color: black !important;
 }
 
@@ -145,7 +146,72 @@ li {
 .features-details {
     margin: 0 auto;
     display: flex;
+    gap: 50px;
+
+}
+
+.fd-text {
+    width: 50%;
+}
+
+.fd-text>h2 {
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 5px solid #ff900e;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fd-text p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #727272;
+
+}
+
+.fd-card {
+    margin-bottom: 15px;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #4a4848;
+}
+
+.last {
+    margin-bottom: 0px !important;
+}
+
+.fd-images {}
+
+.exp-btn {
+    /* position: absolute;
+    left: 0;
+    bottom: 0;
+*/
+    height: 142px;
+    width: 200px;
+}
+
+.exp {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.overlap-btn {
    
     
+    margin-top: -100px;
+}
 
+
+.fd-images>img {
+    width: 100%;
+    margin-left: 50px;
+    z-index: -1;
+    /* margin-left: 30px;
+   margin-bottom: 30px; */
 }
