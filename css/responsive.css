@@ -67,7 +67,6 @@
 
 
     /* some fact section styles */
-    .facts {}
 
     .fact-text {
         margin-top: 50px;
@@ -89,7 +88,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-       grid-gap: 10px;
+        grid-gap: 10px;
     }
     .sponsors-logo>img{
         padding: 20px;
