@@ -66,4 +66,32 @@
     }
 
 
+    /* some fact section styles */
+    .facts {}
+
+    .fact-text {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .fact-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .fact-card-item{
+        padding: 40px 20px;
+    }
+
+    /* sponsors section */
+
+    .sponsors-logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+       grid-gap: 10px;
+    }
+    .sponsors-logo>img{
+        padding: 20px;
+    }
 }
