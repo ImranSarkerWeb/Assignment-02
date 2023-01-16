@@ -11,10 +11,10 @@ html {
 }
 
 body {
-   
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 .btn {
     background-color: #FF900E;
     color: aliceblue;
@@ -34,7 +34,8 @@ body {
 header {
     background: rgba(255, 144, 14, 0.1);
 }
-.header{
+
+.header {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -86,28 +87,97 @@ li {
 
 /* features section styles */
 
+.features {
+    width: 80%;
+    margin: 85px auto 0 auto;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+
+}
+
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+
+.features-images>img {
+    width: 342px;
+    height: 342px;
+    box-shadow: 2px 2px 5px #727272;
+    border-radius: 5px;
+}
+
+
+.features-text>h2 {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #727272;
+}
+
+.features-text>h2>span {
+    color: #FF900E;
+    font-weight: 700;
+}
+.black{
+    color: black !important;
+}
+
+.features-text>p {
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #727272;
+
+}
 
 
 
 
+
+/* responsive design */
 @media screen and (max-width: 576px) {
-    
 
-nav {
-    flex-direction: column;
-    text-align: center;
-   
-}
 
-nav>ul {
-   margin-top: 20px;
-    flex-direction: column;
-    text-align: left;
-    gap: 20px;
-}
+    nav {
+        flex-direction: column;
+        text-align: center;
 
-.banner-text {
-    width: 100%;
-}
+    }
+
+    nav>ul {
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+
+    /* features responsive */
+
+    .features {
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .features-images {
+ 
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+  
+      
 
 }
