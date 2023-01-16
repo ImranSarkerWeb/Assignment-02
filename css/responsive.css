@@ -75,7 +75,7 @@
 
     .fact-cards{
         display: grid;
-        grid-template-columns: repeat(1, .5fr);
+        grid-template-columns: repeat(1, .5gitfr);
         grid-gap: 20px;
     }
     .fact-card-item{
@@ -86,8 +86,9 @@
 
     .sponsors-logo{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: center;
         grid-gap: 10px;
     }
     .sponsors-logo>img{
