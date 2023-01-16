@@ -55,6 +55,12 @@ nav {
     margin-bottom: 100px;
 }
 
+nav>h2>a {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
 nav>ul {
     display: flex;
     gap: 20px;
@@ -63,6 +69,13 @@ nav>ul {
 li {
     list-style-type: none;
 
+}
+
+nav>ul>li a {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #424242;
 }
 
 .banner {
@@ -238,6 +251,10 @@ li {
     background-color: #ff900e;
     color: #FFFFFF;
     font-weight: 700px;
+    box-shadow: 2px 2px 5px #ff900e;
+    transform: scale(1.2);
+    transition: background-color .5s ease-out .3s;
+    transition: transform 1s ease-out .3s;
 }
 
 .fact-card-item>h3 {
@@ -249,11 +266,12 @@ li {
     margin-bottom: 130px;
 }
 
-.sponsors-title{
+.sponsors-title {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .sponsors-text {
     text-align: center;
     margin-bottom: 50px;
@@ -271,7 +289,7 @@ li {
     filter: grayscale(1);
 }
 
-.sponsors-logo>img:hover{
+.sponsors-logo>img:hover {
     filter: grayscale(0);
 }
 

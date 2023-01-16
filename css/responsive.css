@@ -19,7 +19,7 @@
         width: 100%;
     }
     .banner-title{
-        font-size: 35px;
+        font-size: 35px !important;
     }
 
 
